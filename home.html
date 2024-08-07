@@ -8,19 +8,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <headerhome>
+    <header id="headerhome">
         <h2 class="name">Thawatchai Moonsom</h2>
         <nav class="navigation">
-            <a href="#" class="about me">About me</a>
-            <a href="certificate.html" class="certificate">My Certificate</a>
-            <a href="resume.html" class="resume">My Resume</a>
-            <a href="#" class="contact">Contact Me</a>
+            <a href="#aboutme">About me</a>
+            <a href="#certificate">My Certificate</a>
+            <a href="#resume">My Resume</a>
+            <a href="#contact">Contact Me</a>
         </nav>
-    </headerhome>
-    <aboutme>
+    </header>
+    <section id="aboutme">
         <h3>About Me</h3>
         <p>ผมเป็นผู้ที่มีความหลงใหลในด้านการพัฒนาซอฟต์แวร์ ผมมีทักษะในการเขียนโปรแกรมด้วยภาษาต่างๆ ตัวอย่างเช่น Dart, Java, HTML, CSS เป็นต้น และการพัฒนาแอปพลิเคชันที่มีประสิทธิภาพ ผมมุ่งมั่นที่จะสร้างสรรคนวัตกรรมและเทคโนโลยีใหม่ ๆ เพื่อให้ผู้ใช้งานได้รับประสบการณ์ที่ดีที่สุด ผมมีความสามารถในการทำงานเป็นทีมและการแก้ไขปัญหาได้อย่างสร้างสรรค์ เป้าหมายของผมคือการเป็นส่วนหนึ่งในการพัฒนาซอฟต์แวร์ที่ทันสมัยและมีประโยชน์ต่อสังคม</p>
-    </aboutme>
-
+    </section>
+    <section id="certificate">
+        <h3>Certificate</h3>
+        <p>การออกแบบ UX/UI สำหรับแอพลิเคชั่นในศตวรรษที่ 21 ด้วยโปรแกรม Figma</p>
+        <p>การพัฒนา Java Web Application ด้วย Spring Framework และ Angular JS</p>
+        <p>การพัฒนา Mobile Application ด้วย Dart Flutter และ Docker</p>
+    </section>
+    <section id="resume">
+        <h3>My Resume</h3>
+        <p>Here is an overview of my professional experience and educational background.</p>
+        <h4>Professional Experience</h4>
+        <p><strong>Software Developer at ABC Company</strong></p>
+        <p>Developed and maintained web applications using Java and Spring Framework. Collaborated with cross-functional teams to deliver high-quality software solutions.</p>
+        <p><strong>Junior Developer at XYZ Inc.</strong></p>
+        <p>Assisted in the development of mobile applications using Flutter. Participated in code reviews and contributed to improving code quality and performance.</p>
+        <h4>Education</h4>
+        <p><strong>Bachelor's Degree in Computer Science</strong></p>
+        <p>XYZ University, Graduated: 2020</p>
+    </section>
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <form action="https://example.com/form-handler" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
